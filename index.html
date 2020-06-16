@@ -3,19 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title>The Save Point of Fusen</title>
-    <meta name="description" content="リンクサイトです。「ふう旋 - Fusen」が管理しているWebサイトやWebサービスのリンクをまとめて掲載しています。こちらのサイトはデモサイトとなります。">
+    <meta name="description" content="「ふう旋 - Fusen」が管理しているWebサイトのリンクをまとめて掲載しています。">
     <link rel="icon" href="favicon.ico">
     <!-- stylesheet -->
     <link rel="stylesheet" href="css/master.css" type="text/css">
     <link rel="stylesheet" href="css/jquery.bxslider.css" type="text/css">
-    <!-- JQuery File -->
-    <script type="text/javascript" src="js/jquery-3.5.0.min.js"></script>
-    <script type="text/javascript" src="js/smooth-scroll.polyfills.min.js"></script>
-    <script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
+    <!--  -->
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=PT+Serif&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
-    <!-- JavaScript Master File -->
-    <script type="text/javascript" src="js/master.js"></script>
+    <!--  -->
   </head>
   <body>
     <header>
@@ -88,7 +84,9 @@
         </div>
         <div class="links-contents">
           <section class="link1 link">
-            <img src="img/link_Twitter.jpg" alt="Twitterへのリンク">
+            <a href="https://twitter.com/Fusen168" target="_blank">
+              <img src="img/link_Twitter.jpg" alt="TwitterLink">
+            </a>
             <h1 class="headline2">日々のつぶやき</h1>
             <div class="border3">
             </div>
@@ -99,7 +97,9 @@
           </section>
           <!-- .link1 -->
           <section class="link2 link">
-            <img src="img/link_Tumblr.jpg" alt="Tumblrへのリンク">
+            <a href="https://fusen168.tumblr.com/" target="_blank">
+              <img src="img/link_Tumblr.jpg" alt="TumblrLink">
+            </a>
             <h1 class="headline2">ポートフォリオ</h1>
             <div class="border3">
             </div>
@@ -111,7 +111,9 @@
           </section>
           <!-- .link2 -->
           <section class="link3 link">
-            <img src="img/link_pixiv.jpg" alt="pixivへのリンク">
+            <a href="https://www.pixiv.net/users/20048836" target="_blank">
+              <img src="img/link_pixiv.jpg" alt="pixivLink">
+            </a>
             <h1 class="headline2">ギャラリー</h1>
             <div class="border3">
             </div>
@@ -141,11 +143,20 @@
     </footer>
     <!-- footer -->
 
+    <!-- JQuery File -->
+    <script type="text/javascript" src="js/jquery-3.5.0.min.js"></script>
+    <script type="text/javascript" src="js/smooth-scroll.polyfills.min.js"></script>
+    <script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
+    <!--  -->
+    <!-- JavaScript Master File -->
+    <script type="text/javascript" src="js/master.js"></script>
+    <!--  -->
     <!-- Script of ScrollTop with smooth-scroll-->
     <script type="text/javascript">
       var scroll = new SmoothScroll('a[href*="#"]', {
         speed: 500
       });
     </script>
+    <!--  -->
   </body>
 </html>
