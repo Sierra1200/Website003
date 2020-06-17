@@ -255,11 +255,7 @@ footer {
 
   .profile-content {
     display: block;
-    /* margin: 5px 15% 20px; */
     text-align: center;
-    /* margin: 0 auto; */
-    /* margin: 0;
-    padding: 5px 15% 20px; */
   }
 
   .profile-image {
@@ -282,13 +278,8 @@ footer {
     margin: auto 5%;
   }
 
-  .link {
-    /* display: inline-block; */
-    /* margin: 0.5%; */
-    /* width: 100%; */
-    /* height: auto;
-    text-align: center;
-    vertical-align: top; */
+  .link img:hover {
+    transform: none;
   }
 
   .scrollTop {
