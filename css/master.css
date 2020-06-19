@@ -116,7 +116,7 @@ li {
 .profile-detail {
   margin: 0 20px;
   padding: 5px;
-  /* width: 600px; */
+  width: 600px;
   display: inline-block;
 }
 
@@ -235,9 +235,21 @@ footer {
 
 /* responsive */
 @media screen and (max-width: 1000px) {
+  h1 {
+    font-size: 2.3rem;
+  }
+
+  p {
+    font-size: 1.6rem;
+  }
+
   .title {
     padding-left: 5%;
     padding-right: 5%;
+  }
+
+  .title h1 {
+    font-size: 2.8rem;
   }
 
   .mainVisual {
@@ -256,6 +268,7 @@ footer {
   .profile-content {
     display: block;
     text-align: center;
+    padding: 5px 5% 20px;
   }
 
   .profile-image {
@@ -263,15 +276,20 @@ footer {
     margin-right: 10%;
   }
 
-  .profile-detail p {
-    text-align: left;
-  }
-
   .profile-image img {
     width: 300px;
     height: 300px;
     border-radius: 50%;
     border: 0.2rem solid #fff;
+  }
+
+  .profile-detail li{
+    margin-right: 30px;
+  }
+
+  .profile-detail img {
+    width: 60px;
+    height: 60px;
   }
 
   .links-contents {
